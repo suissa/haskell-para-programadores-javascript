@@ -191,3 +191,45 @@ false
 ```
 
 
+Vamos voltar às operações aritméticas, se você lembrar anteriormente fizemos usamos o seguinte cálculo: `400 + 20`, onde o `+` é um função que aceita 2 número e os soma, como visto usamos ela no meio dos 2 valores, essa forma é chamada de função *infix*. A maioria das funções não aritméticas usam funções *prefix*, ou seja, vem antes do valor passado para ela, como visto abaixo:
+
+```
+Prelude> succ 8
+9
+```
+
+A função `succ` recebe um valor e retorna seu sucessor. Como visto passamos um parâmetro para a função apenas separando ele da função com espaço. 
+
+**- E caso eu tenha vários parâmetros?** 
+
+Bom ai basta fazer a mesma coisa, vamos ver os seguintes exemplos:
+
+```
+Prelude> min 9 10
+9
+Prelude> min 3.4 3.2 
+3.2
+Prelude> max 100 101
+101
+```
+
+As funções de aplicação como vistas acima possuem maior precedência, logo as 2 formas abaixo estão corretas:
+
+```
+Prelude> succ 9 + max 5 4 + 1
+16
+Prelude> (succ 9) + (max 5 4) + 1
+16
+```
+
+
+
+
+
+
+
+
+
+
+
+
