@@ -245,7 +245,14 @@ undefined
 91
 ```
 
-Se uma função recebe 2 parâmetros nós também 
+Se uma função recebe 2 parâmetros nós também podemos chamar a função da forma *infix* chamando dentro de \` \`, backticks. Vamos usar a função `div` como exemplo:
+
+```
+Prelude> 840 `div` 2
+420
+Prelude> div 840 2
+420
+```
 
 
 
