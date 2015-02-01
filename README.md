@@ -1,3 +1,4 @@
+{<6>}![](http://www.unixstickers.com/image/cache/data/stickers/haskell/Haskell.sh-600x600.png)
 Primeiro você precisa baixar [The Haskell PLataform](https://www.haskell.org/platform/) para seu sistema operacional e depois de instalado vamos para o terminal rodar o [cabal](https://www.haskell.org/cabal/), que é um tipo de NPM para o Haskell:
  
 ```
@@ -32,6 +33,8 @@ To upgrade, run: cabal install cabal-install
 cabal: no command given (try --help)
 
 ```
+
+{<3>}![](http://www.game-art-hq.com/wp-content/uploads/2013/01/Kabal-MK9-Render.png)
 
 Depois instalamos o `cabal-install`:
 
@@ -253,7 +256,6 @@ Prelude> 840 `div` 2
 Prelude> div 840 2
 420
 ```
-
 
 
 
