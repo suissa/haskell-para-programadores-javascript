@@ -223,6 +223,29 @@ Prelude> (succ 9) + (max 5 4) + 1
 ```
 
 
+Entretanto, se nós quisermos o sucessor do produto dos números 9 e 10, nós não podemos escrever `succ 9 * 10` porque ele irá pegar o sucessor de 9, o qual será multiplicado por 10. Para pegar o sucessor do produto entre 9 e 10 precisamos escrever assim: `succ (9 * 10)`.
+
+```
+Prelude> succ 9 * 10
+100
+Prelude> succ (9 * 10)
+91
+```
+
+No Javascript nós não precisamos nos preocupar já que os parâmetros precisam ser passados via (), podemos fazer uma analogia com o seguinte código:
+
+```
+> function succ(x) { return x+1; }
+undefined
+> succ(9)
+10
+> succ(9) * 10
+100
+> succ(9*10)
+91
+```
+
+Se uma função recebe 2 parâmetros nós também 
 
 
 
