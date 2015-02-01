@@ -1,9 +1,5 @@
-{<1>}![](http://www.unixstickers.com/image/cache/data/stickers/haskell/Haskell.sh-600x600.png)
-
-Estou começando a estudar [Haskell](https://www.haskell.org) e vou tentar criar uma forma simples para quem vem do Javascript.
-
 Primeiro você precisa baixar [The Haskell PLataform](https://www.haskell.org/platform/) para seu sistema operacional e depois de instalado vamos para o terminal rodar o [cabal](https://www.haskell.org/cabal/), que é um tipo de NPM para o Haskell:
- 
+
 ```
 cabal
 
